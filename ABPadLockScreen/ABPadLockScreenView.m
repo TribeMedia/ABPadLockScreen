@@ -246,7 +246,7 @@
     CGFloat pinSelectionTop = self.enterPasscodeLabel.frame.origin.y + self.enterPasscodeLabel.frame.size.height + 10;
     
     CGFloat selectionViewLeft = ([self correctWidth]/2) - (pinRowWidth/2);
-
+    
     for (ABPinSelectionView *view in self.digitsArray) {
         [self setUpPinSelectionView:view  left:selectionViewLeft top:pinSelectionTop];
         selectionViewLeft+=ABPinSelectionViewWidth + pinPadding;

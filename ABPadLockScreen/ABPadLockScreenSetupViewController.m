@@ -102,7 +102,7 @@
     }
     else
     {
-        [lockScreenView updateDetailLabelWithString:@"Not a match. Please try again" animated:YES completion:nil];
+        [lockScreenView updateDetailLabelWithString:@"Not a match!" animated:YES completion:nil];
         [lockScreenView resetAnimated:YES];
         self.enteredPin = nil;
         self.currentPin = @"";
